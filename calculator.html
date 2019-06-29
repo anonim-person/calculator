@@ -1,0 +1,23 @@
+<html>
+	<head>
+	</head>
+	<body>
+		<input type="number" id="one">
+		<input type="number" id="two">
+		<input type="submit" onclick="main()" value="Calculeaza">
+	<script>
+		function main(){
+		 var a = document.getElementById("one").value;
+		 var b = document.getElementById("two").value;
+		 var z = Number(a) + Number(b);
+		 var n = Number(a) * Number(b);
+		 var c = Number(a) / Number(b);
+		 var e = Number(a) - Number(b);
+		alert("Prin adunare: " + z);
+		alert("Prin inmultire: " + n);
+		alert("Prin impartire: " + c);
+		alert("Prin scadere: " + e);
+		}
+	</script>
+	</body>
+</html>
